@@ -11,6 +11,6 @@
     "\\src\\components\\signup",
     "\\src\\firebase"
   ],
-  "SelectedNode": "\\src\\App.css",
+  "SelectedNode": "\\src\\components\\signin-and-register\\signin-register.styles.scss",
   "PreviewInSolutionExplorer": false
 }
