@@ -3,9 +3,14 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\firebase",
-    "\\src\\redux"
+    "\\src\\components\\cart-drop",
+    "\\src\\components\\collection-item",
+    "\\src\\components\\custom-button",
+    "\\src\\components\\header",
+    "\\src\\components\\preview-collection",
+    "\\src\\redux",
+    "\\src\\redux\\cart"
   ],
-  "SelectedNode": "\\src\\redux\\root-reducer.js",
+  "SelectedNode": "\\src\\redux\\cart\\cart.actions.js",
   "PreviewInSolutionExplorer": false
 }
