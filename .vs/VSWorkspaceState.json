@@ -3,14 +3,14 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\cart-drop",
-    "\\src\\components\\collection-item",
-    "\\src\\components\\custom-button",
-    "\\src\\components\\header",
-    "\\src\\components\\preview-collection",
+    "\\src\\components\\cart-icon",
+    "\\src\\components\\checkout-item",
+    "\\src\\pages",
+    "\\src\\pages\\checkout",
+    "\\src\\pages\\shop",
     "\\src\\redux",
-    "\\src\\redux\\cart"
+    "\\src\\redux\\user"
   ],
-  "SelectedNode": "\\src\\redux\\cart\\cart.actions.js",
+  "SelectedNode": "\\src\\redux\\cart\\cart.utils.js",
   "PreviewInSolutionExplorer": false
 }
