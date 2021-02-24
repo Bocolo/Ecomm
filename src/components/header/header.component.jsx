@@ -3,46 +3,41 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 import { selectCartHidden } from '../../redux/cart/cart.selectors.js';
-import { selectCurrentUser} from '../../redux/user/user.selectors.js';
-import './header.styles.scss';
+import { selectCurrentUser } from '../../redux/user/user.selectors.js';
+import { HeaderContainer, LogoContainer, OptionDiv, OptionLink, OptionsContainer } from './header.styles.jsx';
 import { ReactComponent as Logo } from '../../assets/crownlogo.svg';
 import { auth } from '../../firebase/firebase.utils.js';
 import CartIcon from '../cart-icon/cart-icon.component';
 import CartDrop from '../cart-drop/cart-drop.component';
 import { createStructuredSelector } from 'reselect';
 
-const Header = ({ currentUser,hidden }) => (
-    <div className='header'>
-        <Link className='logo-container' to="/">
+const Header = ({ currentUser, hidden }) => (
+    <HeaderContainer>
+        <LogoContainer to="/">
             <Logo className='logo' />
-        </Link>
-
-        <div className='options'>
-            <Link className='option' to='/shop'>
+        </LogoContainer>
+        <OptionsContainer >
+            <OptionLink to='/shop'>
                 SHOP
-            </Link>
-
-
-            <Link className='option' to='/contact'>
+            </OptionLink>
+            <OptionLink to='/contact'>
                 CONTACT
-            </Link>
+            </OptionLink>
             {currentUser ?
-                <div className='option' onClick={() => auth.signOut()}>SIGN OUT</div>
+                <OptionDiv onClick={() => auth.signOut()}>SIGN OUT</OptionDiv>
                 :
-                <Link className='option' to='/signin'>
-                    SIGN IN</Link>
+                <OptionLink to='/signin'>
+                    SIGN IN</OptionLink>
             }
-           
             <CartIcon />
-           
-        </div>
+        </OptionsContainer>
         { 
             hidden ?
                 null 
                 :
                 <CartDrop />
         }
-    </div>
+    </HeaderContainer>
 );
 //synta for destructing nested value instead of"= state =>"
 // and ' currentUser : state.user.currentUser'

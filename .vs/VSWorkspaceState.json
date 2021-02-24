@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\cart-icon",
+    "\\src\\components\\cart-item",
     "\\src\\components\\checkout-item",
+    "\\src\\components\\collection-item",
+    "\\src\\components\\stripe-button",
     "\\src\\pages",
-    "\\src\\pages\\checkout",
-    "\\src\\pages\\shop",
-    "\\src\\redux",
-    "\\src\\redux\\user"
+    "\\src\\pages\\homepage"
   ],
-  "SelectedNode": "\\src\\redux\\cart\\cart.utils.js",
+  "SelectedNode": "\\src\\pages\\homepage\\homepage.styles.scss",
   "PreviewInSolutionExplorer": false
 }
