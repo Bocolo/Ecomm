@@ -1,16 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
     "\\src\\components",
-    "\\src\\components\\collections-overview",
-    "\\src\\firebase",
     "\\src\\pages",
-    "\\src\\pages\\collection",
-    "\\src\\pages\\shop",
-    "\\src\\redux",
-    "\\src\\redux\\user"
+    "\\src\\redux"
   ],
-  "SelectedNode": "\\src\\pages\\collection\\collection.container.jsx",
   "PreviewInSolutionExplorer": false
 }
