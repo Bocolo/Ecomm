@@ -3,14 +3,14 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\with-spinner",
+    "\\src\\components\\collections-overview",
+    "\\src\\firebase",
     "\\src\\pages",
     "\\src\\pages\\collection",
     "\\src\\pages\\shop",
     "\\src\\redux",
-    "\\src\\redux\\shop",
     "\\src\\redux\\user"
   ],
-  "SelectedNode": "\\src\\pages\\shop\\shop.component.jsx",
+  "SelectedNode": "\\src\\pages\\collection\\collection.container.jsx",
   "PreviewInSolutionExplorer": false
 }
