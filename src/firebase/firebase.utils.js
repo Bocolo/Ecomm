@@ -3,7 +3,7 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-    apiKey: "AIzaSyCriLfzOS7gHdSPfl_z6YotxEKie8hHHpc",
+    apiKey: "MY_API_KEY",
     authDomain: "crn-db-312db.firebaseapp.com",
     projectId: "crn-db-312db",
     storageBucket: "crn-db-312db.appspot.com",
