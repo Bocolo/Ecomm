@@ -12,6 +12,7 @@ import SignInSignUp from './components/signin-and-register/signin-register.compo
 
 
 import { selectCurrentUser } from './redux/user/user.selectors';
+import {checkUserSession } from './redux/user/user.actions';
 import './App.css';
 
 
@@ -22,27 +23,11 @@ class App extends React.Component {
     
     unsubscribeFromAuth = null; 
     componentDidMount() {
-        
-        /*this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
-            if (userAuth) {
-                const userRef = await createUserProfileDocument(userAuth);
-                userRef.onSnapshot(snapShot => {
-                    setCurrentUser({
-                        id: snapShot.id,
-                        ...snapShot.data()
-                    });
-                       
-                    
+        const { checkUserSession } = this.props;
+        checkUserSession();
 
-                });
-                
-            }
-            else {
-                setCurrentUser(userAuth);
-            }
-            console.log('im working modi');
-           
-        });*/
+
+       
     }
     componentWillUnmount() {
         this.unsubscribeFromAuth();
@@ -78,8 +63,11 @@ class App extends React.Component {
 const mapStateToProps = createStructuredSelector({
     currentUser: selectCurrentUser
 });
+const mapDispatchToProps=dispatch=>({
+    checkUserSession: ()=>dispatch(checkUserSession())
+})
 
 
 export default connect(
-    mapStateToProps
+    mapStateToProps, mapDispatchToProps
 )(App);
