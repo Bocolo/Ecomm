@@ -1,9 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\src",
     "\\src\\components",
+    "\\src\\components\\signin",
+    "\\src\\firebase",
     "\\src\\pages",
+    "\\src\\pages\\shop",
     "\\src\\redux"
   ],
+  "SelectedNode": "\\src\\components\\signin\\signin.component.jsx",
   "PreviewInSolutionExplorer": false
 }

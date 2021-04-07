@@ -16,6 +16,9 @@ export const fetchCollectionsFailure = errorMessage => ({
     type: ShopActionTypes.FETCH_COLLECTIONS_FAILURE,
     payload: errorMessage
 })
+
+//see shop.sagas.js gen func fetchCollectionsAsync()
+// uses sagas for this thunk instead
 export const fetchCollectionsStartAsync = () => {
 
     return dispatch => {
