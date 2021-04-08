@@ -7,7 +7,7 @@ import { selectCurrentUser } from '../../redux/user/user.selectors.js';
 import { HeaderContainer, LogoContainer, OptionDiv, OptionLink, OptionsContainer } from './header.styles.jsx';
 import { ReactComponent as Logo } from '../../assets/crownlogo.svg';
 import { signOutStart } from '../../redux/user/user.actions';
-import { auth } from '../../firebase/firebase.utils.js';
+
 import CartIcon from '../cart-icon/cart-icon.component';
 import CartDrop from '../cart-drop/cart-drop.component';
 import { createStructuredSelector } from 'reselect';

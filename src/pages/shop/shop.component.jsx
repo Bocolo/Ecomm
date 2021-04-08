@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Route } from 'react-router-dom';
 import CollectionsOverviewContainer from '../../components/collections-overview/collections-overview.component.jsx';
 import CollectionPageContainer from '../collection/collection.container';
@@ -11,18 +11,13 @@ import './shop.styles.scss';
 /*const CollectionsOverviewWithSpinner = WithSpinner(CollectionsOverView);*/
 /*const CollectionPageWithSpinner = WithSpinner(CollectionPage);*/
 
-class ShopPage extends React.Component { 
- 
-    componentDidMount() {
-
-
-        const { fetchCollectionsStart } = this.props;
+const ShopPage = ({ fetchCollectionsStart, match }) => {
+    useEffect(() => {
         fetchCollectionsStart();
 
-    }
+    }, [fetchCollectionsStart])
+    
 
-    render() {
-        const { match} = this.props;
        
         return(
             <div className='shop-page'>
@@ -36,7 +31,7 @@ class ShopPage extends React.Component {
         </div>
         );
     }
-};
+
 
 
 const mapDispatchToProps = dispatch => ({

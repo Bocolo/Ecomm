@@ -5,10 +5,11 @@
     "\\src\\components",
     "\\src\\components\\signin",
     "\\src\\firebase",
-    "\\src\\pages",
-    "\\src\\pages\\shop",
-    "\\src\\redux"
+    "\\src\\redux",
+    "\\src\\redux\\cart",
+    "\\src\\redux\\shop",
+    "\\src\\redux\\user"
   ],
-  "SelectedNode": "\\src\\components\\signin\\signin.component.jsx",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
