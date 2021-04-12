@@ -1,15 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\components",
-    "\\src\\components\\signin",
-    "\\src\\firebase",
-    "\\src\\redux",
-    "\\src\\redux\\cart",
-    "\\src\\redux\\shop",
-    "\\src\\redux\\user"
+    ""
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
