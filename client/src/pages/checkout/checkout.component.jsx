@@ -39,9 +39,7 @@ const CheckoutPage = ({ cartItems,total }) => (
             *Please use the following test credit card for payments*
              
         <br />
-            <br />
-            US : 4242 4242 4242 4242 CVC: 123 EXP: 10/23
-            <br />
+            
             <br />
             Ireland: 4000 0037 2000 0005 CVC: 123 EXP: 10/23
             <br/>
