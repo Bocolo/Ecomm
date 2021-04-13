@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\components",
+    "\\client\\src\\components\\stripe-button",
+    "\\client\\src\\pages\\checkout",
+    "\\client\\src\\redux\\user"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\client\\src\\components\\stripe-button\\stripe-button.component.jsx",
   "PreviewInSolutionExplorer": false
 }
