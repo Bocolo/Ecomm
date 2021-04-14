@@ -3,7 +3,7 @@
     flex-direction: column;
 
     .title {
-        font-size: 38px;
+        font-size: 28px;
         margin: 0 auto 30px;
     }
 
@@ -24,6 +24,7 @@
 
         & .collection-item {
             margin-bottom: 30px;
+            margin-left:10px;
         }
     }
 }

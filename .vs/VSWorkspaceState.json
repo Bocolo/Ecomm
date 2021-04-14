@@ -4,10 +4,13 @@
     "\\client",
     "\\client\\src",
     "\\client\\src\\components",
+    "\\client\\src\\components\\directory",
+    "\\client\\src\\components\\menu-item",
     "\\client\\src\\components\\stripe-button",
+    "\\client\\src\\pages",
     "\\client\\src\\pages\\checkout",
-    "\\client\\src\\redux\\user"
+    "\\client\\src\\pages\\homepage"
   ],
-  "SelectedNode": "\\client\\src\\components\\stripe-button\\stripe-button.component.jsx",
+  "SelectedNode": "\\client\\src\\components\\menu-item\\menu-item.styles.scss",
   "PreviewInSolutionExplorer": false
 }
