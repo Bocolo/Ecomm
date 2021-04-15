@@ -4,13 +4,13 @@
     "\\client",
     "\\client\\src",
     "\\client\\src\\components",
-    "\\client\\src\\components\\directory",
-    "\\client\\src\\components\\menu-item",
-    "\\client\\src\\components\\stripe-button",
-    "\\client\\src\\pages",
-    "\\client\\src\\pages\\checkout",
-    "\\client\\src\\pages\\homepage"
+    "\\client\\src\\components\\signin",
+    "\\client\\src\\components\\signup",
+    "\\client\\src\\components\\spinner",
+    "\\client\\src\\components\\with-spinner",
+    "\\client\\src\\pages\\collection",
+    "\\client\\src\\pages\\shop"
   ],
-  "SelectedNode": "\\client\\src\\components\\menu-item\\menu-item.styles.scss",
+  "SelectedNode": "\\client\\src\\components\\spinner\\spinner.component.jsx",
   "PreviewInSolutionExplorer": false
 }
