@@ -1,16 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\client",
     "\\client\\src",
     "\\client\\src\\components",
     "\\client\\src\\components\\signin",
     "\\client\\src\\components\\signup",
     "\\client\\src\\components\\spinner",
-    "\\client\\src\\components\\with-spinner",
-    "\\client\\src\\pages\\collection",
-    "\\client\\src\\pages\\shop"
+    "\\client\\src\\components\\with-spinner"
   ],
-  "SelectedNode": "\\client\\src\\components\\spinner\\spinner.component.jsx",
+  "SelectedNode": "\\server.js",
   "PreviewInSolutionExplorer": false
 }
